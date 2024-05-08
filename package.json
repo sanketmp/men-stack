@@ -1,0 +1,27 @@
+{
+  "name": "crudmen",
+  "version": "1.0.0",
+  "description": "CRUD app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "mongodb",
+    "express",
+    "node"
+  ],
+  "author": "sanketmp",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.6.1",
+    "mongoose": "^8.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
